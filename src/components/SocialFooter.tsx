@@ -1,5 +1,5 @@
 
-import { Twitch, Discord } from "lucide-react";
+import { Twitch, MessageCircle } from "lucide-react";
 import { X } from "lucide-react";
 
 const SocialFooter = () => {
@@ -18,7 +18,7 @@ const SocialFooter = () => {
             href="#" 
             className="text-white/60 hover:text-gaming-accent transition-colors flex items-center space-x-2"
           >
-            <Discord className="h-5 w-5" />
+            <MessageCircle className="h-5 w-5" />
             <span>Discord</span>
           </a>
           <a 

@@ -1,7 +1,6 @@
-
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Twitch, Discord } from "lucide-react";
+import { Twitch, MessageCircle } from "lucide-react";
 
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -89,7 +88,7 @@ const HeroSection = () => {
                 variant="outline" 
                 className="border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white px-8 py-3 rounded-lg"
               >
-                <Discord className="mr-2 h-5 w-5" />
+                <MessageCircle className="mr-2 h-5 w-5" />
                 Discord
               </Button>
             </div>
